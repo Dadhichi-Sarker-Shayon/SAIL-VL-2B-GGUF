@@ -17,6 +17,8 @@ tags:
 
 # SAIL-VL-2B GGUF
 
+**Hugging Face release:** [ShayonSarker/SAIL-VL-2B-GGUF](https://huggingface.co/ShayonSarker/SAIL-VL-2B-GGUF)
+
 Unofficial [GGUF](https://github.com/ggml-org/ggml) conversion of [BytedanceDouyinContent/SAIL-VL-2B](https://huggingface.co/BytedanceDouyinContent/SAIL-VL-2B), packaged for inference with `llama.cpp`.
 
 The repository contains the Qwen2 text model in F16, Q8_0, and Q4_K_M formats, plus the InternViT multimodal projector required for image prompts.
