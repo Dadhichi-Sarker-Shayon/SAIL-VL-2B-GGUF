@@ -1,0 +1,15 @@
+# Generated model and build outputs
+*.gguf
+model/
+output/
+llama.cpp/
+
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local secrets and logs
+.env
+*.log
+.cache/

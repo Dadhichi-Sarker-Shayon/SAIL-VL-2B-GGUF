@@ -1,0 +1,22 @@
+{
+  "model_id": "BytedanceDouyinContent/SAIL-VL-2B",
+  "repo": "ShayonSarker/SAIL-VL-2B-GGUF",
+  "quants": [
+    "Q4_K_M",
+    "Q8_0"
+  ],
+  "llama_cpp_commit": "fc343a84bbd925b37dde3219de35ea0bed50d630",
+  "inference_output": "The image features a French Bulldog lying on a worn, turquoise wooden deck. The dog is positioned on its side, with its head resting on the ground and its body stretched out. The deck has visible signs of wear, with peeling paint and visible wood grain. The dog's fur is a mix of light brown and white, with darker markings around its eyes and ears. The text overlaid on the image reads \"MONDAY. JUST...MONDAY.\" in white capital letters. The text is arranged in two lines, with \"MONDAY.\" at the top and \"JUST...MONDAY.\" at the bottom. The image has",
+  "sha": {
+    "sail-vl-2b-Q8_0.gguf": "61901090e1320905",
+    "sail-vl-2b-Q4_K_M.gguf": "4617334f0a57d3d2",
+    "sail-vl-2b-f16.gguf": "38ad3f1071d6cb47",
+    "mmproj-sail-vl-2b-f16.gguf": "caa7630ff7272874"
+  },
+  "sizes_mb": {
+    "sail-vl-2b-Q8_0.gguf": 1894.5,
+    "sail-vl-2b-Q4_K_M.gguf": 1117.3,
+    "sail-vl-2b-f16.gguf": 3560.4,
+    "mmproj-sail-vl-2b-f16.gguf": 628.2
+  }
+}
