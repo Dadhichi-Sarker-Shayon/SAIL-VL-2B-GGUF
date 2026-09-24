@@ -17,7 +17,17 @@ tags:
 
 # SAIL-VL-2B GGUF
 
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge)](https://huggingface.co/ShayonSarker/SAIL-VL-2B-GGUF)
+[![Kaggle Notebook](https://img.shields.io/badge/Kaggle%20Notebook-20BEFF?style=for-the-badge)](https://www.kaggle.com/code/dadhichisarkershayon/model-sail-vl-2b-gguf?scriptVersionId=352440056)
+[![GGUF](https://img.shields.io/badge/GGUF-00A67E?style=for-the-badge)](https://huggingface.co/ShayonSarker/SAIL-VL-2B-GGUF)
+[![Semantic vision gate passed](https://img.shields.io/badge/semantic%20vision%20gate-passed-00A67E?style=for-the-badge)](#validation)
+[![Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-D22128?style=for-the-badge)](LICENSE)
+
 **Hugging Face release:** [ShayonSarker/SAIL-VL-2B-GGUF](https://huggingface.co/ShayonSarker/SAIL-VL-2B-GGUF)
+
+**Kaggle notebook:** [Run the complete conversion notebook](https://www.kaggle.com/code/dadhichisarkershayon/model-sail-vl-2b-gguf?scriptVersionId=352440056)
+
+**GitHub source:** [Dadhichi-Sarker-Shayon/SAIL-VL-2B-GGUF](https://github.com/Dadhichi-Sarker-Shayon/SAIL-VL-2B-GGUF)
 
 Unofficial [GGUF](https://github.com/ggml-org/ggml) conversion of [BytedanceDouyinContent/SAIL-VL-2B](https://huggingface.co/BytedanceDouyinContent/SAIL-VL-2B), packaged for inference with `llama.cpp`.
 
@@ -56,7 +66,7 @@ Use the `mmproj` file with any text GGUF from this repository. The validation ru
 
 ## Rebuild the conversion
 
-Open [`SAIL-VL-2B-GGUF.ipynb`](SAIL-VL-2B-GGUF.ipynb) in Kaggle, enable Internet, select the CPU accelerator, add `HF_TOKEN` as a Kaggle secret, and run all cells. The notebook downloads the source model, builds `llama.cpp`, converts the text and vision projector, runs the semantic gate, writes checksums, and uploads the release to Hugging Face.
+Run the published [Kaggle notebook](https://www.kaggle.com/code/dadhichisarkershayon/model-sail-vl-2b-gguf?scriptVersionId=352440056), or open [`SAIL-VL-2B-GGUF.ipynb`](SAIL-VL-2B-GGUF.ipynb) locally. Enable Internet, select the CPU accelerator, add `HF_TOKEN` as a Kaggle secret, and run all cells. The notebook downloads the source model, builds `llama.cpp`, converts the text and vision projector, runs the semantic gate, writes checksums, and uploads the release to Hugging Face.
 
 Generated GGUFs and local build directories are intentionally ignored by Git; download them from the Hugging Face release instead.
 
