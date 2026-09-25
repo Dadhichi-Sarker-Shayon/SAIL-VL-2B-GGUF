@@ -10,9 +10,16 @@ tags:
 - gguf
 - vision-language
 - multimodal
+- image-text-to-text
 - llama.cpp
 - qwen2
 - internvit
+- mmproj
+- q4_k_m
+- q8_0
+- 2b
+- ocr
+- chart-qa
 ---
 
 # SAIL-VL-2B GGUF
@@ -52,6 +59,18 @@ Download the binaries from the [Hugging Face release](https://huggingface.co/Sha
 - [`sail-vl-2b-Q8_0.gguf`](https://huggingface.co/ShayonSarker/SAIL-VL-2B-GGUF/resolve/main/sail-vl-2b-Q8_0.gguf)
 - [`sail-vl-2b-Q4_K_M.gguf`](https://huggingface.co/ShayonSarker/SAIL-VL-2B-GGUF/resolve/main/sail-vl-2b-Q4_K_M.gguf)
 - [`mmproj-sail-vl-2b-f16.gguf`](https://huggingface.co/ShayonSarker/SAIL-VL-2B-GGUF/resolve/main/mmproj-sail-vl-2b-f16.gguf)
+
+## Format status
+
+| File | Status | Purpose |
+|---|---|---|
+| `sail-vl-2b-f16.gguf` | Published | Reference text model |
+| `sail-vl-2b-Q8_0.gguf` | Published | Balanced text quantization |
+| `sail-vl-2b-Q4_K_M.gguf` | Published | Smaller text quantization |
+| `mmproj-sail-vl-2b-f16.gguf` | Published | Vision projector for image input |
+| `mmproj` Q8_0 / Q4_K_M | Not published | Only the F16 projector was converted and validated |
+
+The vision projector is only 628 MB in F16, so quantising it further is not worth the validation risk. Any text GGUF from this repository can be paired with the F16 `mmproj`.
 
 ## Files
 
