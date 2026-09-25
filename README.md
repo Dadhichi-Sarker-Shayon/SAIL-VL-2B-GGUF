@@ -121,9 +121,11 @@ For text-only prompts, use `llama-cli` with one of the text GGUFs; the `mmproj` 
 
 ## Validation
 
-The conversion was tested with `llama.cpp` commit `fc343a84bbd925b37dde3219de35ea0bed50d630` on CPU. All GGUF files passed the GGUF magic check, and the Q8_0 model passed a semantic image test using the source repository's `statics/14.jpg`:
+The conversion was tested with `llama.cpp` commit `fc343a84bbd925b37dde3219de35ea0bed50d630` on CPU. All GGUF files passed the GGUF magic check, and the Q8_0 model passed a semantic image test using the source repository's `statics/14.jpg`. Verbatim model output:
 
 > The image features a French Bulldog lying on a worn, turquoise wooden deck. ... The text overlaid on the image reads "MONDAY. JUST...MONDAY."
+
+This is the only vision release in this collection with a passing image gate; the SmolVLM-500M multimodal attempt scored 0/50 and was not published.
 
 The exact inference output, file sizes, conversion commit, and short hashes are recorded in [`REPRO.json`](REPRO.json). Full SHA-256 checksums are in [`SHA256.txt`](SHA256.txt).
 
